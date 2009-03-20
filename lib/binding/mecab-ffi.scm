@@ -1,4 +1,4 @@
-(library (binding mecab)
+(library (binding mecab-ffi)
          (export mecab-new2
                  mecab-version
                  mecab-strerror

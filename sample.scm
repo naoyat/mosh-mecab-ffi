@@ -1,6 +1,6 @@
 (import (rnrs)
         (mosh)
-        (binding mecab))
+        (binding mecab-ffi))
 
 (let ([m (mecab-new2 "")] [src (string->utf8z "ぼく、ひげぽん。")])
   (let loop ((n (mecab-sparse-tonode m src)))
